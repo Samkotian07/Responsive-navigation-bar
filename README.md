@@ -1,4 +1,7 @@
 # Responsive-navigation-bar
 Respoonsive Navigation Bar using HTML/CSS
-#output!
-[Screenshot 2024-09-06 131949](https://github.com/user-attachments/assets/37217585-7f8e-4acb-a1b5-a2d71e73fd95)
+#output
+
+
+
+![Screenshot 2024-09-06 131949](https://github.com/user-attachments/assets/4d6829a7-8d48-464d-b0cd-d90bd6a7789d)
