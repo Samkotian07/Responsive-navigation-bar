@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>
+    NAV
+  </title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+<div id="topnav" class="navbar">
+  <a href="#" class="logo">
+    SAM
+  </a>
+  <div class="navbar-right menu">
+    <a href="#" class="active">
+      HOME
+    </a>
+    <a href="#">
+      ABOUT
+    </a>
+    <a href="#">
+      SERVICES
+    </a>
+    <a href="#">
+      CONTACT
+    </a>
+  </div>
+  <div class="navbar-right">
+    <a href="javascript:void(0);" class="icon" onclick="showMenu()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+</div>
+
+<script type="text/javascript ">
+  function showMenu() {
+	var topNav = document.getElementById('topnav');
+	if (topNav.className === "navbar") {
+		topNav.className += " show";
+	} else {
+		topNav.className = "navbar";
+	}
+}
+</script>
+<section class="home">
+   <h1>SAM</h1>
+</section>
+</body>
+</html>
